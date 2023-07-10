@@ -1,4 +1,4 @@
-name: rust
+name: rust-build-test
 
 on:
   push:

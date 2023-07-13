@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.cdnfonts.com/css/borg" rel="stylesheet">
 
     <title>Homie</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
@@ -17,7 +18,7 @@
             background: linear-gradient(to bottom, black, slateblue);
             margin: 0;
             padding: 0;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Borg', sans-serif;
         }
 
         header {
@@ -28,21 +29,28 @@
             /* Alinha o conteúdo à direita */
         }
 
-        .container {
+         .container {
             display: flex;
-            align-items: flex-start;
-            /* Alinha o conteúdo no topo */
-            justify-content: center;
+            flex-direction: column; /* Para alinhar os elementos verticalmente */
+            align-items: center;
+            justify-content: flex-start; /* Alinha os elementos no topo */
             height: 100vh;
         }
-
+        
         h1 {
+            color: white;
+            font-size: 96px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+        
+        h2 {
             color: white;
             font-size: 48px;
             text-align: center;
             text-transform: uppercase;
-            margin-top: 0;
-            /* Remove a margem superior padrão do h1 */
+            margin: 0;
         }
 
         .github-link {
@@ -60,6 +68,7 @@
 
     <div class="container">
         <h1>Homie</h1>
+        <h2>Your day to day AI assistant</h2>
     </div>
 </body>
 
